@@ -5,14 +5,7 @@ import Documents from "../pages/Documents";
 import Events from "../pages/Events";
 import NonMuslimsDay from "../pages/Non-muslims-day";
 import Sds from "../pages/Sds";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const TopBar = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <div className="bg-[#f1ebe6] py-10 px-6 md:px-14 xl:px-32 flex flex-col md:flex-row justify-between items-center gap-4">

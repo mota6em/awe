@@ -13,7 +13,7 @@ const TopBar = () => {
     <>
       <header className="flex items-center justify-between px-3 md:px-6 py-1 md:py-2 bg-[#f1ebe6] shadow-md">
         <NavLink to="/" className="text-xl font-semibold text-stone-800 ms-2">
-          AWE
+          <img src="./imgs/icon.png" alt="Logo Icon" className="w-10" />
         </NavLink>
 
         <nav className="hidden md:flex gap-6 !text-gray-300 font-semibold text-sm">

@@ -11,7 +11,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 const TopBar = () => {
   return (
     <>
-      <header className="flex items-center justify-between px-3 md:px-6 py-1 md:py-2 bg-[#f1ebe6] shadow-md">
+      <header className="flex items-center justify-between px-3 md:px-6 py-1 md:py-2 bg-[#f1ebe6] z-50 border border-b-black/20">
         <NavLink to="/" className="text-xl font-semibold text-stone-800 ms-2">
           <img src="./imgs/icon.png" alt="Logo Icon" className="w-10" />
         </NavLink>
